@@ -9,7 +9,33 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Game_Jam_Twine_07_2023.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Game_Jam_Twine_07_2023" startnode="1" creator="Twine" creator-version="2.7.0" format="Harlowe" format-version="3.3.6" ifid="C124DA96-8DAF-4167-BB58-53B6561D1BE3" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="700,300" size="100,100"></tw-passagedata></tw-storydata>
+<tw-storydata name="Game_Jam_Twine_07_2023" startnode="1" creator="Twine" creator-version="2.7.0" format="Harlowe" format-version="3.3.6" ifid="C124DA96-8DAF-4167-BB58-53B6561D1BE3" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">a.tooltip {font-weight: normal;} 
+
+a.tooltip span {
+    z-index:10;
+    display:none; 
+    padding:14px 20px;
+    margin-top:50px; margin-left:-40px;
+    min-width: 50px;
+    max-width: 450px !important;
+    line-height:20px;
+    border-radius:2px;        
+    box-shadow: 0px 0px 8px 4px #666;
+}
+
+a.tooltip:hover span{
+    display:inline; 
+    position:absolute;
+    border:2px solid #FFF;  
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-size:1.0em;
+    background:#FFFFCC repeat-x 0 0;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Untitled Passage" tags="" position="700,300" size="100,100">#Гра
+[[Почати гру]]
+Автори:</tw-passagedata><tw-passagedata pid="2" name="Почати гру" tags="" position="700,425" size="100,100">(set: $soc to 0)
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
